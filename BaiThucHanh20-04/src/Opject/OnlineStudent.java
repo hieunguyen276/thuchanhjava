@@ -1,13 +1,17 @@
 package Opject;
 
-public class OnlineStudent extends Student{
-    public String theSV;
+public class OnlineStudent extends Student {
+    protected String thietBiHocTap;
 
-    public void setTheSv(String theSV){
-        if(theSV == null || theSV.isEmpty()){
-            this.theSV = "Khong co the sinh vien";
-        }else{
-            this.theSV = "Co the sinh vien";
+    public void setThietBiHocTap(String thietBiHocTap){
+        if (thietBiHocTap == null || thietBiHocTap.isEmpty()){
+            this.thietBiHocTap = "Khong co";
+        } else {
+            this.thietBiHocTap = "Co laptop";
         }
+    }
+
+    public void dongHoc(){
+        System.out.println("Dong hoc phi thong qua SmartBanking hoac ra ngan hang o dia phuong dong hoc");
     }
 }

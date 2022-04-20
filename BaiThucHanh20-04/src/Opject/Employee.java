@@ -16,10 +16,12 @@ public class Employee extends Person {
     public void setLuong(long luong){
         this.luong = luong;
     }
-
+    @Override
+    public String phuongTienDiChuyen(){
+        return " Xe may ";
+    }
     public void xuatThongTin(){
         System.out.println("Ten : " + super.ten);
         System.out.println("Loai nhan vien : " + this.chucVu);
-        System.out.println("- Luong: " + this.luong + "VND");
     }
 }
