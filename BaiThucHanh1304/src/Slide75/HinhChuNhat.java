@@ -1,4 +1,3 @@
-package Slide75;
 
 public class HinhChuNhat extends HinhHoc {
 

@@ -2,7 +2,9 @@
     "java.project.sourcePaths": [
         "BaiThucHanh2302/src",
         "BaiThucHanh1602/src",
+        "BaiThucHanh1304/src/Slide75",
+        "BaiThucHanh1304/src/Slide71",
         "BaiThucHanh0203/src",
-        "BaiThucHanh1304/src/Slide71"
+        "BaiThucHanh1304/src/Slide73"
     ]
 }
