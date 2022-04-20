@@ -2,12 +2,24 @@ package Opject;
 
 public class Person {
     protected String ten;
-    protected String tuoi;
+    protected byte tuoi;
     protected String gioiTinh;
-    protected String phuongTienDiChuyen;
 
-    public void diHoc(){
-        System.out.println(" Con nguoi phai học tap");
+    public String getTen(){
+        return ten;
+    }
+    public byte getTuoi(){
+        return tuoi;
+    }
+    public String getGioiTinh(){
+        return gioiTinh;
+    }
+    public void setTen(String ten){
+        this.ten = ten;
+    }
+    public String phuongTienDiChuyen(){
+        //Lop con Override
+        return "";
     }
 
     public void diLam(){
