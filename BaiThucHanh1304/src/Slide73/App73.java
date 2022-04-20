@@ -1,5 +1,3 @@
-package Slide73;
-
 public class App73 {
     
     public static void main (String[] args) {

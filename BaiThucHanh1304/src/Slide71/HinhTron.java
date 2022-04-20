@@ -1,4 +1,4 @@
-package Slide71;
+
 
 class HinhTron {
   

@@ -1,4 +1,4 @@
-package Slide71;
+
 
 public class App71 {
     

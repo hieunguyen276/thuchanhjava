@@ -1,4 +1,3 @@
-package Slide71;
 
 public class ToaDo {
     private int x;
